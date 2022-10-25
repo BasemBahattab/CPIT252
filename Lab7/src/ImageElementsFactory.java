@@ -20,4 +20,5 @@ public class ImageElementsFactory {
     public int numberOfFlyweights() {
         return flyweights.size();
     }
+    
 }

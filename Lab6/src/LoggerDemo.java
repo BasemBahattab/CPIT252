@@ -1,5 +1,4 @@
 public class LoggerDemo {
- 
 	public static void main(String args[]) {
 		BaseLogger logger = new FileLogger();
 		System.out.println(logger.getLabel() 

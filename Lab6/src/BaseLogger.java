@@ -4,6 +4,5 @@ public abstract class BaseLogger {
 	public String getLabel() {
 		return label;
 	}
- 
 	public abstract String getLevel();
 }

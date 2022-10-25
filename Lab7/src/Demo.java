@@ -21,6 +21,7 @@ public class Demo{
         panel = new JPanel();
         frame.add(panel);
     }
+    
     public void addImage(ImageIcon img, int x, int y){
         JLabel label = new JLabel();
         label.setIcon(img);
