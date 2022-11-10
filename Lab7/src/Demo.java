@@ -41,7 +41,7 @@ public class Demo{
             factory.numberOfFlyweights());
         
         Random r = new Random();
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 100; i++) {
             String name  = elements[r.nextInt(elements.length)] + ".png";
             ImageElement e = factory.getFlyweight(name);
             elementList.add(e);
